@@ -43,11 +43,11 @@ body {
 .mobile-menu-toggle {
   display: none;
   position: fixed;
-  top: 20px;
-  right: 20px;
+  top: 15px;
+  right: 15px;
   z-index: 2000;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   border: none;
   border-radius: 50%;
   background: var(--glass-bg);
@@ -62,7 +62,7 @@ body {
 
 .mobile-menu-toggle .hamburger {
   display: block;
-  width: 24px;
+  width: 18px;
   height: 2px;
   background: var(--text-primary);
   position: relative;
@@ -73,18 +73,18 @@ body {
 .mobile-menu-toggle .hamburger::after {
   content: '';
   position: absolute;
-  width: 24px;
+  width: 18px;
   height: 2px;
   background: var(--text-primary);
   transition: var(--transition);
 }
 
 .mobile-menu-toggle .hamburger::before {
-  top: -8px;
+  top: -6px;
 }
 
 .mobile-menu-toggle .hamburger::after {
-  bottom: -8px;
+  bottom: -6px;
 }
 
 .mobile-menu-toggle.active .hamburger {
@@ -729,6 +729,7 @@ footer {
   
   .intro {
     text-align: center;
+    margin-left: 0;
   }
   
   .info {
@@ -740,11 +741,13 @@ footer {
     flex-direction: column;
     padding: 60px 30px;
     gap: 50px;
+    text-align: center;
   }
   
   .logo2 {
     width: 280px;
     height: 380px;
+    margin: 0 auto;
   }
   
   .aboutme {
@@ -893,10 +896,14 @@ footer {
     padding: 20px 15px;
   }
   
-  .intro h1 {
-    font-size: 32px;
+  .intro {
+    text-align: center;
   }
-  
+
+  .intro h1 {
+    font-size: 42px;
+  }
+
   .intro p {
     font-size: 16px;
   }
@@ -909,6 +916,7 @@ footer {
   .logo2 {
     width: 220px;
     height: 300px;
+    margin: 0 auto;
   }
   
   .skills-grid {
