@@ -1008,7 +1008,7 @@ footer {
   .logo2 {
     width: 220px;
     height: 300px;
-    margin-left: 5px;
+    margin: 0 auto;
   }
   
   .skills-grid {
