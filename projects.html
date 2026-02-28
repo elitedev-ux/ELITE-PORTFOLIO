@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="elite.dev - My Projects" />
+    <meta name="theme-color" content="#000000" />
+    <link rel="icon" href="./assets/jpeg/Elite.dev.jpg (1).jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <title>My Projects - elite.dev</title>
+  </head>
+  <body>
+    <!-- Mobile Menu Toggle -->
+    <button class="mobile-menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span class="hamburger"></span>
+    </button>
+
+    <section class="projects-page-header">
+      <section class="header">
+        <nav class="logo"><a href="index.html"><h2>elite.dev</h2></a></nav>
+        <div class="menu-btn">
+          <div class="menu">
+            <ul>
+              <li><a href="index.html#services">Services</a></li>
+              <li><a href="index.html#about">About</a></li>
+              <li><a href="index.html#skills">Skills</a></li>
+              <li><a href="projects.html">Projects</a></li>
+            </ul>
+          </div>
+          <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+            <i class="fas fa-moon"></i>
+            <i class="fas fa-sun"></i>
+          </button>
+          <a href="index.html#contact" class="header-btn">
+            Get in touch
+            <span class="icon">→</span>
+          </a>
+        </div>
+      </section>
+      <div class="projects-header-content">
+        <h1>My Projects</h1>
+        <p>A showcase of my recent work</p>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <div class="projects-grid">
+        <div class="project-card">
+          <a href="https://elitedev-ux.github.io/aero-elite.dev/" target="_blank">
+            <div class="project-image">
+              <img src="./assets/jpeg/AERO.png" alt="AERO Project" />
+            </div>
+            <div class="project-info">
+              <h3>AERO</h3>
+              <p>[Add project description here]</p>
+            </div>
+          </a>
+        </div>
+        <div class="project-card">
+          <a href="https://elitedev-ux.github.io/Group-8-JOBIE/" target="_blank">
+            <div class="project-image">
+              <img src="./assets/jpeg/JOBIE1.png" alt="JOBIE Project" />
+            </div>
+            <div class="project-info">
+              <h3>JOBIE</h3>
+              <p>[Add project description here]</p>
+            </div>
+          </a>
+        </div>
+        <div class="project-card">
+          <a href="https://stalwart-ganache-cc4768.netlify.app/" target="_blank">
+            <div class="project-image">
+              <img src="./assets/jpeg/MEDICARE.png" alt="MEDICARE Project" />
+            </div>
+            <div class="project-info">
+              <h3>MEDICARE</h3>
+              <p>[Add project description here]</p>
+            </div>
+          </a>
+        </div>
+        <div class="project-card">
+          <a href="https://elitedev-ux.github.io/elite.dev-login-Signup-page/index.html" target="_blank">
+            <div class="project-image">
+              <img src="./assets/jpeg/LOGIN.png" alt="LOGIN & SIGNUP Project" />
+            </div>
+            <div class="project-info">
+              <h3>LOGIN & SIGNUP</h3>
+              <p>[Add project description here]</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2>Get In Touch</h2>
+      <p>Have a project in mind? Let's create something amazing together.</p>
+      <form name="contact" method="POST" data-netlify="true" class="contact-form">
+        <p>
+          <label>Name: <input type="text" name="name" required></label>
+        </p>
+        <p>
+          <label>Email: <input type="email" name="email" required></label>
+        </p>
+        <p>
+          <label>Message: <textarea name="message" required></textarea></label>
+        </p>
+        <p>
+          <button type="submit" class="submit-btn">
+            Send Message
+            <span class="icon">→</span>
+          </button>
+        </p>
+      </form>
+      <input type="hidden" name="form-name" value="contact">
+      <p style="display:none">
+        <label>Don't fill this out: <input name="bot-field"></label>
+      </p>
+      <div class="social-links">
+        <a href="https://github.com/elitedev-ux" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="https://wa.me/2347041563867?text=Hi%20👋%20I'd%20like%20to%20work%20with%20elite.dev" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        <a href="tel:+2347041563867" target="_blank" rel="noopener noreferrer" aria-label="Phone"><i class="fas fa-phone"></i></a>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-content">
+        <h3>elite.dev</h3>
+        <p>Building digital experiences that matter.</p>
+        <div class="footer-links">
+          <a href="index.html#home">Home</a>
+          <a href="index.html#about">About</a>
+          <a href="index.html#services">Services</a>
+          <a href="projects.html">Projects</a>
+          <a href="index.html#contact">Contact</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 elite.dev. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
